@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the '3DAugmentation' target in the '3DAugmentation' project
+//
+#include <opencv.hpp>
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#define DEBUG_IS_ON 0
+#define ARLog(fmt, ...) NSLog((@"ARLoging: " fmt), ##__VA_ARGS__)
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
