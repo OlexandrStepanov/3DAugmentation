@@ -1,7 +1,7 @@
 //
 // Prefix header for all source files of the '3DAugmentation' target in the '3DAugmentation' project
 //
-#include <opencv.hpp>
+#include <OpenCV/opencv2/opencv.hpp>
 
 #import <Availability.h>
 

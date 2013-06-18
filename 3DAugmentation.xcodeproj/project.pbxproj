@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B15A14F14EEA80D004F33F2 /* model.jpg.tracker_data in Resources */ = {isa = PBXBuildFile; fileRef = 4B15A14E14EEA80D004F33F2 /* model.jpg.tracker_data */; };
-		4B49049114FABDD10042EE80 /* libisgl3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B49048F14FABDD10042EE80 /* libisgl3d.a */; };
-		4B49049214FABDD10042EE80 /* libisgl3dbullet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B49049014FABDD10042EE80 /* libisgl3dbullet.a */; };
 		4B4904BA14FACAA40042EE80 /* Isgl3dAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B4904B714FACAA40042EE80 /* Isgl3dAppDelegate.mm */; };
 		4B4904BB14FACAA40042EE80 /* Isgl3dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4904B914FACAA40042EE80 /* Isgl3dViewController.m */; };
 		4B4904BE14FB80D00042EE80 /* CubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4904BD14FB80CF0042EE80 /* CubeView.m */; };
@@ -64,7 +61,6 @@
 		4B9D83E414E6C8BB00C39130 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D83E314E6C8BB00C39130 /* CoreMedia.framework */; };
 		4B9D83E614E6C8CE00C39130 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D83E514E6C8CE00C39130 /* QuartzCore.framework */; };
 		4B9D83E814E6C8D800C39130 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D83E714E6C8D800C39130 /* OpenGLES.framework */; };
-		4B9D83EA14E6C8F600C39130 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9D83E914E6C8F600C39130 /* OpenCV.framework */; };
 		4B9D83F914E6CB8B00C39130 /* ControlWizzard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D83ED14E6CB8B00C39130 /* ControlWizzard.mm */; };
 		4B9D83FA14E6CB8B00C39130 /* timeDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D83EF14E6CB8B00C39130 /* timeDebug.cpp */; };
 		4B9D83FB14E6CB8B00C39130 /* UIImage+Alpha.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D83F214E6CB8B00C39130 /* UIImage+Alpha.mm */; };
@@ -73,18 +69,13 @@
 		4B9D83FE14E6CB8B00C39130 /* UIImage+RoundedCorner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D83F814E6CB8B00C39130 /* UIImage+RoundedCorner.mm */; };
 		4B9D841414E708B000C39130 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D841114E708B000C39130 /* EAGLView.mm */; };
 		4B9D841514E708B000C39130 /* ES1Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D841314E708B000C39130 /* ES1Renderer.mm */; };
-		4B9D841E14E70D6500C39130 /* model.jpg.detector_data in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D841C14E70D6400C39130 /* model.jpg.detector_data */; };
-		4B9D842514E7168E00C39130 /* model.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B9D842414E7168E00C39130 /* model.jpg */; };
 		4BD6FF8914FE38F10073A544 /* LowPassMatrixFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD6FF8814FE38F10073A544 /* LowPassMatrixFilter.m */; };
-		4BFCFB021770739200F37ACC /* monaLisaTalk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFAFF1770739100F37ACC /* monaLisaTalk.jpg */; };
-		4BFCFB031770739200F37ACC /* monaLisaTalk.jpg.detector_data in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB001770739200F37ACC /* monaLisaTalk.jpg.detector_data */; };
-		4BFCFB041770739200F37ACC /* monaLisaTalk.jpg.tracker_data in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB011770739200F37ACC /* monaLisaTalk.jpg.tracker_data */; };
+		4BFCFB0617707A1E00F37ACC /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0517707A1E00F37ACC /* OpenCV.framework */; };
+		4BFCFB0917707E6100F37ACC /* libisgl3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0717707E6100F37ACC /* libisgl3d.a */; };
+		4BFCFB0A17707E6100F37ACC /* libisgl3dbullet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0817707E6100F37ACC /* libisgl3dbullet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B15A14E14EEA80D004F33F2 /* model.jpg.tracker_data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = model.jpg.tracker_data; sourceTree = "<group>"; };
-		4B49048F14FABDD10042EE80 /* libisgl3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3d.a; path = "../../../iSGL3D/lib/Debug-iphoneos/libisgl3d.a"; sourceTree = "<group>"; };
-		4B49049014FABDD10042EE80 /* libisgl3dbullet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3dbullet.a; path = "../../../iSGL3D/lib/Debug-iphoneos/libisgl3dbullet.a"; sourceTree = "<group>"; };
 		4B4904B614FACAA40042EE80 /* Isgl3dAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Isgl3dAppDelegate.h; sourceTree = "<group>"; };
 		4B4904B714FACAA40042EE80 /* Isgl3dAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Isgl3dAppDelegate.mm; sourceTree = "<group>"; };
 		4B4904B814FACAA40042EE80 /* Isgl3dViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Isgl3dViewController.h; sourceTree = "<group>"; };
@@ -189,7 +180,6 @@
 		4B9D83E314E6C8BB00C39130 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4B9D83E514E6C8CE00C39130 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4B9D83E714E6C8D800C39130 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		4B9D83E914E6C8F600C39130 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCV.framework; path = ../../OpenCV/OpenCV.framework; sourceTree = "<group>"; };
 		4B9D83EC14E6CB8B00C39130 /* ControlWizzard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlWizzard.h; sourceTree = "<group>"; };
 		4B9D83ED14E6CB8B00C39130 /* ControlWizzard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ControlWizzard.mm; sourceTree = "<group>"; };
 		4B9D83EE14E6CB8B00C39130 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
@@ -208,14 +198,12 @@
 		4B9D841214E708B000C39130 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
 		4B9D841314E708B000C39130 /* ES1Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ES1Renderer.mm; sourceTree = "<group>"; };
 		4B9D841614E7090000C39130 /* ESRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESRenderer.h; sourceTree = "<group>"; };
-		4B9D841C14E70D6400C39130 /* model.jpg.detector_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.jpg.detector_data; sourceTree = "<group>"; };
-		4B9D842414E7168E00C39130 /* model.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = model.jpg; sourceTree = "<group>"; };
 		4B9D84E314EB17CF00C39130 /* CameraIntrinsicMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraIntrinsicMatrix.h; sourceTree = "<group>"; };
 		4BD6FF8714FE38F10073A544 /* LowPassMatrixFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowPassMatrixFilter.h; sourceTree = "<group>"; };
 		4BD6FF8814FE38F10073A544 /* LowPassMatrixFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowPassMatrixFilter.m; sourceTree = "<group>"; };
-		4BFCFAFF1770739100F37ACC /* monaLisaTalk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monaLisaTalk.jpg; sourceTree = "<group>"; };
-		4BFCFB001770739200F37ACC /* monaLisaTalk.jpg.detector_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = monaLisaTalk.jpg.detector_data; sourceTree = "<group>"; };
-		4BFCFB011770739200F37ACC /* monaLisaTalk.jpg.tracker_data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monaLisaTalk.jpg.tracker_data; sourceTree = "<group>"; };
+		4BFCFB0517707A1E00F37ACC /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCV.framework; path = 3DAugmentation/libs/OpenCV.framework; sourceTree = "<group>"; };
+		4BFCFB0717707E6100F37ACC /* libisgl3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3d.a; path = "3DAugmentation/libs/isgl3d/lib/Debug-iphoneos/libisgl3d.a"; sourceTree = "<group>"; };
+		4BFCFB0817707E6100F37ACC /* libisgl3dbullet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3dbullet.a; path = "3DAugmentation/libs/isgl3d/lib/Debug-iphoneos/libisgl3dbullet.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,9 +211,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B49049114FABDD10042EE80 /* libisgl3d.a in Frameworks */,
-				4B49049214FABDD10042EE80 /* libisgl3dbullet.a in Frameworks */,
-				4B9D83EA14E6C8F600C39130 /* OpenCV.framework in Frameworks */,
 				4B9D83E814E6C8D800C39130 /* OpenGLES.framework in Frameworks */,
 				4B9D83E614E6C8CE00C39130 /* QuartzCore.framework in Frameworks */,
 				4B9D834414E6BF7800C39130 /* CoreGraphics.framework in Frameworks */,
@@ -235,6 +220,9 @@
 				4B9D83DE14E6C8A000C39130 /* CoreVideo.framework in Frameworks */,
 				4B9D834014E6BF7800C39130 /* UIKit.framework in Frameworks */,
 				4B9D834214E6BF7800C39130 /* Foundation.framework in Frameworks */,
+				4BFCFB0617707A1E00F37ACC /* OpenCV.framework in Frameworks */,
+				4BFCFB0917707E6100F37ACC /* libisgl3d.a in Frameworks */,
+				4BFCFB0A17707E6100F37ACC /* libisgl3dbullet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +278,9 @@
 		4B9D833E14E6BF7800C39130 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B49048F14FABDD10042EE80 /* libisgl3d.a */,
-				4B49049014FABDD10042EE80 /* libisgl3dbullet.a */,
-				4B9D83E914E6C8F600C39130 /* OpenCV.framework */,
+				4BFCFB0717707E6100F37ACC /* libisgl3d.a */,
+				4BFCFB0817707E6100F37ACC /* libisgl3dbullet.a */,
+				4BFCFB0517707A1E00F37ACC /* OpenCV.framework */,
 				4B9D83E714E6C8D800C39130 /* OpenGLES.framework */,
 				4B9D83E514E6C8CE00C39130 /* QuartzCore.framework */,
 				4B9D83E314E6C8BB00C39130 /* CoreMedia.framework */,
@@ -521,13 +509,7 @@
 		4B9D841B14E70D6400C39130 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4BFCFAFF1770739100F37ACC /* monaLisaTalk.jpg */,
-				4BFCFB001770739200F37ACC /* monaLisaTalk.jpg.detector_data */,
-				4BFCFB011770739200F37ACC /* monaLisaTalk.jpg.tracker_data */,
 				4B4904C614FC28CE0042EE80 /* 3dModel */,
-				4B15A14E14EEA80D004F33F2 /* model.jpg.tracker_data */,
-				4B9D842414E7168E00C39130 /* model.jpg */,
-				4B9D841C14E70D6400C39130 /* model.jpg.detector_data */,
 			);
 			name = Resources;
 			path = 3DAugmentation/Resources;
@@ -594,16 +576,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9D834A14E6BF7800C39130 /* InfoPlist.strings in Resources */,
-				4B9D841E14E70D6500C39130 /* model.jpg.detector_data in Resources */,
-				4B9D842514E7168E00C39130 /* model.jpg in Resources */,
-				4B15A14F14EEA80D004F33F2 /* model.jpg.tracker_data in Resources */,
 				4B4904CB14FC28CE0042EE80 /* Belt.pvr in Resources */,
 				4B4904CC14FC28CE0042EE80 /* Body.pvr in Resources */,
 				4B4904CD14FC28CE0042EE80 /* Legs.pvr in Resources */,
 				4B4904CE14FC28CE0042EE80 /* man.pod in Resources */,
-				4BFCFB021770739200F37ACC /* monaLisaTalk.jpg in Resources */,
-				4BFCFB031770739200F37ACC /* monaLisaTalk.jpg.detector_data in Resources */,
-				4BFCFB041770739200F37ACC /* monaLisaTalk.jpg.tracker_data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +659,6 @@
 		4B9D835A14E6BF7900C39130 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -700,16 +675,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"/Users/yltastep/Documents/XCode/iSGL3D/isgl3d-1.2.3/isgl3dbullet",
-					"/Users/yltastep/Documents/XCode/iSGL3D/isgl3d-1.2.3/isgl3d/**",
-					/Users/yltastep/Documents/XCode/AugReal/OpenCV/OpenCV.framework/Headers/opencv,
-					"/Users/yltastep/Documents/XCode/AugReal/OpenCV/OpenCV.framework/Headers/**",
-					$PROJECT_DIR/3DAugmentation/Ferns,
-					$PROJECT_DIR/3DAugmentation/Ferns/starter,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = "/Users/yltastep/Documents/XCode/iSGL3D/lib/Debug-iphoneos";
 				OTHER_CFLAGS = "-mfpu=neon";
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -726,7 +692,6 @@
 		4B9D835B14E6BF7900C39130 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -736,16 +701,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"/Users/yltastep/Documents/XCode/iSGL3D/isgl3d-1.2.3/isgl3dbullet",
-					"/Users/yltastep/Documents/XCode/iSGL3D/isgl3d-1.2.3/isgl3d/**",
-					/Users/yltastep/Documents/XCode/AugReal/OpenCV/OpenCV.framework/Headers/opencv,
-					"/Users/yltastep/Documents/XCode/AugReal/OpenCV/OpenCV.framework/Headers/**",
-					$PROJECT_DIR/3DAugmentation/Ferns,
-					$PROJECT_DIR/3DAugmentation/Ferns/starter,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = "/Users/yltastep/Documents/XCode/iSGL3D/lib/Release-iphoneos";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-mfpu=neon",
@@ -768,15 +724,24 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../OpenCV\"",
+					"\"$(SRCROOT)/3DAugmentation/libs\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DAugmentation/3DAugmentation-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR/3DAugmentation/libs/isgl3d/include/isgl3dbullet,
+					"$PROJECT_DIR/3DAugmentation/libs/isgl3d/include/isgl3d/**",
+					$PROJECT_DIR/3DAugmentation/Ferns,
+					$PROJECT_DIR/3DAugmentation/Ferns/starter,
+					$PROJECT_DIR/3DAugmentation/libs/OpenCV.framework/Headers,
+					$PROJECT_DIR/3DAugmentation/libs/OpenCV.framework/Headers/opencv,
+				);
 				INFOPLIST_FILE = "3DAugmentation/3DAugmentation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../iSGL3D/lib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/3DAugmentation/libs/isgl3d/lib/Debug-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -788,15 +753,24 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../OpenCV\"",
+					"\"$(SRCROOT)/3DAugmentation/libs\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DAugmentation/3DAugmentation-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					$PROJECT_DIR/3DAugmentation/libs/isgl3d/include/isgl3dbullet,
+					"$PROJECT_DIR/3DAugmentation/libs/isgl3d/include/isgl3d/**",
+					$PROJECT_DIR/3DAugmentation/Ferns,
+					$PROJECT_DIR/3DAugmentation/Ferns/starter,
+					$PROJECT_DIR/3DAugmentation/libs/OpenCV.framework/Headers,
+					$PROJECT_DIR/3DAugmentation/libs/OpenCV.framework/Headers/opencv,
+				);
 				INFOPLIST_FILE = "3DAugmentation/3DAugmentation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../iSGL3D/lib/Debug-iphoneos\"",
+					"\"$(SRCROOT)/3DAugmentation/libs/isgl3d/lib/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

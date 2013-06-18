@@ -25,7 +25,7 @@
 
 #define THRESHOLD_TRANSFORM_OBJECT_LOST 0.2
 
-#define MODEL_NAME @"monaLisaTalk.jpg"
+#define MODEL_NAME @"monaLisa.jpg"
 #define TRACKING_FRAME_INCREASE_PERCENTAGE 0.3
 
 #define IMAGE_MOVE_SPEED 0.3
