@@ -169,6 +169,10 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (BOOL)shouldAutorotate {
+    return NO;
+}
+
 #pragma mark - RecognizerDelegate methods
 
 - (void)updateDebugImage:(UIImage *)debugImage isTracking:(BOOL)isTracking {

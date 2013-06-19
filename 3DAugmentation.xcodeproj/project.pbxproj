@@ -73,6 +73,16 @@
 		4BFCFB0617707A1E00F37ACC /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0517707A1E00F37ACC /* OpenCV.framework */; };
 		4BFCFB0917707E6100F37ACC /* libisgl3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0717707E6100F37ACC /* libisgl3d.a */; };
 		4BFCFB0A17707E6100F37ACC /* libisgl3dbullet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCFB0817707E6100F37ACC /* libisgl3dbullet.a */; };
+		4BFCFB101771AE0D00F37ACC /* monaLisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB0D1771AE0D00F37ACC /* monaLisa.jpg */; };
+		4BFCFB111771AE0D00F37ACC /* monaLisa.jpg.detector_data in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB0E1771AE0D00F37ACC /* monaLisa.jpg.detector_data */; };
+		4BFCFB121771AE0D00F37ACC /* monaLisa.jpg.tracker_data in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB0F1771AE0D00F37ACC /* monaLisa.jpg.tracker_data */; };
+		4BFCFB2D1771B14100F37ACC /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB291771B14100F37ACC /* Default-Portrait@2x~ipad.png */; };
+		4BFCFB2E1771B14100F37ACC /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB2A1771B14100F37ACC /* Default-Portrait~ipad.png */; };
+		4BFCFB2F1771B14100F37ACC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB2B1771B14100F37ACC /* Default.png */; };
+		4BFCFB301771B14100F37ACC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB2C1771B14100F37ACC /* Default@2x.png */; };
+		4BFCFB321771B51500F37ACC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB271771B0E400F37ACC /* Icon-72.png */; };
+		4BFCFB331771B51900F37ACC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB231771B0C900F37ACC /* Icon.png */; };
+		4BFCFB341771B51C00F37ACC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFCFB251771B0DC00F37ACC /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -204,6 +214,16 @@
 		4BFCFB0517707A1E00F37ACC /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCV.framework; path = 3DAugmentation/libs/OpenCV.framework; sourceTree = "<group>"; };
 		4BFCFB0717707E6100F37ACC /* libisgl3d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3d.a; path = "3DAugmentation/libs/isgl3d/lib/Debug-iphoneos/libisgl3d.a"; sourceTree = "<group>"; };
 		4BFCFB0817707E6100F37ACC /* libisgl3dbullet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libisgl3dbullet.a; path = "3DAugmentation/libs/isgl3d/lib/Debug-iphoneos/libisgl3dbullet.a"; sourceTree = "<group>"; };
+		4BFCFB0D1771AE0D00F37ACC /* monaLisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monaLisa.jpg; sourceTree = "<group>"; };
+		4BFCFB0E1771AE0D00F37ACC /* monaLisa.jpg.detector_data */ = {isa = PBXFileReference; lastKnownFileType = file; path = monaLisa.jpg.detector_data; sourceTree = "<group>"; };
+		4BFCFB0F1771AE0D00F37ACC /* monaLisa.jpg.tracker_data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = monaLisa.jpg.tracker_data; sourceTree = "<group>"; };
+		4BFCFB231771B0C900F37ACC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		4BFCFB251771B0DC00F37ACC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
+		4BFCFB271771B0E400F37ACC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../Icon-72.png"; sourceTree = "<group>"; };
+		4BFCFB291771B14100F37ACC /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = SOURCE_ROOT; };
+		4BFCFB2A1771B14100F37ACC /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = SOURCE_ROOT; };
+		4BFCFB2B1771B14100F37ACC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		4BFCFB2C1771B14100F37ACC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,7 +266,7 @@
 			path = isgl3d;
 			sourceTree = "<group>";
 		};
-		4B4904C614FC28CE0042EE80 /* 3dModel */ = {
+		4B4904C614FC28CE0042EE80 /* 3dModelAssets */ = {
 			isa = PBXGroup;
 			children = (
 				4B4904C714FC28CE0042EE80 /* Belt.pvr */,
@@ -254,6 +274,7 @@
 				4B4904C914FC28CE0042EE80 /* Legs.pvr */,
 				4B4904CA14FC28CE0042EE80 /* man.pod */,
 			);
+			name = 3dModelAssets;
 			path = 3dModel;
 			sourceTree = "<group>";
 		};
@@ -509,7 +530,9 @@
 		4B9D841B14E70D6400C39130 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B4904C614FC28CE0042EE80 /* 3dModel */,
+				4BFCFB311771B4F100F37ACC /* Icons&Defaults */,
+				4BFCFB221771B08600F37ACC /* Model */,
+				4B4904C614FC28CE0042EE80 /* 3dModelAssets */,
 			);
 			name = Resources;
 			path = 3DAugmentation/Resources;
@@ -522,6 +545,30 @@
 				4BD6FF8814FE38F10073A544 /* LowPassMatrixFilter.m */,
 			);
 			path = LowPassFilter;
+			sourceTree = "<group>";
+		};
+		4BFCFB221771B08600F37ACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCFB0D1771AE0D00F37ACC /* monaLisa.jpg */,
+				4BFCFB0E1771AE0D00F37ACC /* monaLisa.jpg.detector_data */,
+				4BFCFB0F1771AE0D00F37ACC /* monaLisa.jpg.tracker_data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4BFCFB311771B4F100F37ACC /* Icons&Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCFB291771B14100F37ACC /* Default-Portrait@2x~ipad.png */,
+				4BFCFB2A1771B14100F37ACC /* Default-Portrait~ipad.png */,
+				4BFCFB2B1771B14100F37ACC /* Default.png */,
+				4BFCFB2C1771B14100F37ACC /* Default@2x.png */,
+				4BFCFB271771B0E400F37ACC /* Icon-72.png */,
+				4BFCFB251771B0DC00F37ACC /* Icon@2x.png */,
+				4BFCFB231771B0C900F37ACC /* Icon.png */,
+			);
+			name = "Icons&Defaults";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -580,6 +627,16 @@
 				4B4904CC14FC28CE0042EE80 /* Body.pvr in Resources */,
 				4B4904CD14FC28CE0042EE80 /* Legs.pvr in Resources */,
 				4B4904CE14FC28CE0042EE80 /* man.pod in Resources */,
+				4BFCFB101771AE0D00F37ACC /* monaLisa.jpg in Resources */,
+				4BFCFB111771AE0D00F37ACC /* monaLisa.jpg.detector_data in Resources */,
+				4BFCFB121771AE0D00F37ACC /* monaLisa.jpg.tracker_data in Resources */,
+				4BFCFB2D1771B14100F37ACC /* Default-Portrait@2x~ipad.png in Resources */,
+				4BFCFB2E1771B14100F37ACC /* Default-Portrait~ipad.png in Resources */,
+				4BFCFB2F1771B14100F37ACC /* Default.png in Resources */,
+				4BFCFB301771B14100F37ACC /* Default@2x.png in Resources */,
+				4BFCFB321771B51500F37ACC /* Icon-72.png in Resources */,
+				4BFCFB331771B51900F37ACC /* Icon.png in Resources */,
+				4BFCFB341771B51C00F37ACC /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

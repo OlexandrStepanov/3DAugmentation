@@ -81,6 +81,10 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (BOOL)shouldAutorotate {
+    return NO;
+}
+
 
 #pragma mark Camera logic
 
